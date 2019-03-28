@@ -6,7 +6,7 @@ sequentially are active alone for 15 seconds. Followed by 15 seconds of all the 
 
 ===
 
-The raw data can be found [here](link). Each sample is a 16-channel wav file in
+The raw data can be found [here](https://www.dropbox.com/sh/tc6f5s5u7ryjqrs/AAD_3-3scMd5BC3_h9L4MQbra?dl=0). Each sample is a 16-channel wav file in
 which the order of the channel follows the following logic:
 
 0 - module 5 mic 1
@@ -29,6 +29,10 @@ which the order of the channel follows the following logic:
 Refer to the [floor plan](WHISPER4_floor_annotated.png) for a visual
 illustration of the microphones arrangements.
 
+Samples are ordered in folders. Each folder contains a 15 seconds 16-cahnnels `mixture.wav` file, plus the 
+10 seconds 16-channels `calibX.wav` files one for each speaker or noise in the mixture. That is a mixture with 
+4 speakers will have 4 calibration files and a mixture of a speaker plus noise will have 2 calibration files 
+one for speech (1) and one for noise (2).  
 ===
 
 # Info
